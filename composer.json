@@ -1,0 +1,22 @@
+{
+  "name": "olive-cms/udms-json",
+  "description": "Json addon for Universal data manager System",
+  "type": "library",
+  "keywords": ["Data", "Database", "Data manager", "UDMS", "Sql", "NoSQL", "json", "datahub", "composer", "OliveCMS"],
+  "require": {
+    "php": ">=5.5",
+    "olive-cms/tools": "^1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Olive\\UDMS\\Addon\\": "src/"
+    }
+  },
+  "license": "MIT",
+  "authors": [{
+    "name": "Mehdi HosseinZade",
+    "email": "arshen@outlook.com",
+    "homepage": "https://arshen.ir",
+    "role": "Developer"
+  }]
+}
